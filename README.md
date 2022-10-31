@@ -38,7 +38,7 @@ Using microsoft lobe hat from adafruit and raspberry pi4 to detect abnormal gait
     sudo python3 raspi-blinka.py
 ###### Select yes to reboot
 
-###### Installing DotStar library
+###### Installing DotStar library. This step is to install circuit python support
 -    ###### Type
     pip3 install --upgrade adafruit-circuitpython-dotstar adafruit-circuitpython-motor adafruit-circuitpython-bmp280
 
