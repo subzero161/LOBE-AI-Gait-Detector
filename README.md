@@ -27,7 +27,7 @@ Using microsoft lobe hat from adafruit and raspberry pi4 to detect abnormal gait
     sudo apt-get install python3-pip
 -    ###### Then Type
     sudo pip3 install --upgrade setuptools
-###### Installing Blinka Next
+###### Installing Blinka 
 -    ###### First Type
     cd ~
 -    ###### Then Type
@@ -42,3 +42,19 @@ Using microsoft lobe hat from adafruit and raspberry pi4 to detect abnormal gait
 -    ###### Type
     pip3 install --upgrade adafruit-circuitpython-dotstar adafruit-circuitpython-motor adafruit-circuitpython-bmp280
 
+###### Installing Audio/Voice Support
+-    ###### First Type
+    cd ~
+-    ###### Then Type
+    sudo apt-get install -y git
+-    ###### Then Type
+    git clone https://github.com/HinTak/seeed-voicecard
+-    ###### Then Type
+    cd seeed-voicecard
+-    ###### Then Type
+    git checkout v5.9
+    sudo ./install.sh
+-    ###### Reboot Your Pi 
+    sudo reboot
+-    ###### After reboot, open terminal and run:
+    sudo aplay -l
