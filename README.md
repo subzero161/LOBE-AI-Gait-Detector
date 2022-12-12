@@ -58,3 +58,10 @@ Using microsoft lobe hat from adafruit and raspberry pi4 to detect abnormal gait
     sudo reboot
 -    ###### After reboot, open terminal and run:
     sudo aplay -l
+
+
+###### Check for camera, if using raspberry pi directly
+-    ###### First Type
+    libcamera-hello -t 0
+-    ###### If running via ssh and run into what():  failed to import fd 19 ERROR
+   libcamera-hello --qt-preview
